@@ -6,4 +6,12 @@ The goal of web-lab3 was to get acquainted with the approaches of HTML and CSS a
 # The personal task of web-lab3
 ![image](https://github.com/JessFreak/web-lab1/assets/119421914/f79506ba-923e-49aa-bd5d-6b7d82feab64)
 
-My aim was to construct a layout, which will be adequate to the given photo.
+My goal is to make 2 additional versions of the page:
+- for mailing
+- for smartphones
+
+## Mobile version 
+![image](https://github.com/JessFreak/web-lab3/assets/119421914/d5c850a5-44ef-47f7-80d3-4e014ee4af96)
+
+## Mail version
+![image](https://github.com/JessFreak/web-lab3/assets/119421914/62213e2c-2192-4c83-96f8-307afc28761b)
