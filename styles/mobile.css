@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+    body {
+        grid-template-areas:
+        "header header header"
+        "nav-bar main-content right"
+        "footer footer footer";
+    }
+
+    header {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .tab-button {
+        font-size: 1.2rem;
+    }
+
+    .main-content {
+        grid-template-rows: 2fr 1fr;
+    }
+
+    .content, .content-2 {
+        border-width: 1px;
+    }
+
+    footer {
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .footer-text, .header-text {
+        width: fit-content;
+        height: fit-content;
+        margin-right: 6px;
+    }
+
+    .right h2 {
+        line-height: 1.4rem;
+    }
+
+    h1 {
+        font-size: 0.7rem;
+    }
+
+    h2, h3 {
+        font-size: 0.8rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+}
