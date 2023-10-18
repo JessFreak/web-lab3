@@ -2,16 +2,26 @@
     body {
         grid-template-areas:
         "header header header"
-        "nav-bar main-content right"
+        "nav-bar main-content main-content"
+        "nav-bar main-content main-content"
+        "right right right"
         "footer footer footer";
     }
 
     header {
+        padding: 10px;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .nav-bar {
+        display: block;
     }
 
     .tab-button {
         font-size: 1.2rem;
+        margin: 5.5rem 0;
+        height: fit-content;
+        transform: rotate(-90deg);
     }
 
     .main-content {
@@ -22,18 +32,19 @@
         border-width: 1px;
     }
 
+    .right {
+        padding: 10px;
+    }
+
     footer {
-        grid-template-columns: 3fr 1fr;
+        padding: 10px;
+        grid-template-columns: 2fr 1fr;
+        border-top: solid #FDEA8E 1px;
     }
 
     .footer-text, .header-text {
         width: fit-content;
         height: fit-content;
-        margin-right: 6px;
-    }
-
-    .right h2 {
-        line-height: 1.4rem;
     }
 
     h1 {
