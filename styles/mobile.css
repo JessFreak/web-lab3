@@ -1,12 +1,14 @@
 @media (max-width: 768px) {
     body {
         grid-template-areas:
-        "header header header"
-        "nav-bar main-content main-content"
-        "nav-bar main-content main-content"
-        "right right right"
-        "footer footer footer";
+        "header"
+        "nav-bar"
+        "main-content"
+        "right"
+        "footer";
         overflow-y: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr 1fr 3fr 3fr 3fr;
     }
 
     header {
@@ -16,15 +18,13 @@
 
     .nav-bar {
         display: flex;
-        flex-direction: column;
         justify-content: space-around;
+        align-items: center;
     }
 
     .tab-button {
         font-size: 1.2rem;
         margin: 0;
-        height: fit-content;
-        transform: rotate(-90deg);
     }
 
     .main-content {
@@ -38,7 +38,9 @@
     }
 
     .right {
+        display: flex;
         padding: 10px;
+        align-items: center;
     }
 
     footer {
