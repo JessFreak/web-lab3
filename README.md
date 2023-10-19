@@ -11,7 +11,7 @@ My goal is to make 2 additional versions of the page:
 - for smartphones
 
 ## Mobile version 
-![image](https://github.com/JessFreak/web-lab3/assets/119421914/4f0a9eee-a50d-4a34-b2c1-13faa6319c91)
+![image](https://github.com/JessFreak/web-lab3/assets/119421914/aca7661c-40df-4d09-92a5-66cfe0974f4f)
 
 ## Mail version
 ![image](https://github.com/JessFreak/web-lab3/assets/119421914/62213e2c-2192-4c83-96f8-307afc28761b)
